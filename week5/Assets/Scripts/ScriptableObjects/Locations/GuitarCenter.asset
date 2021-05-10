@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6be12adfb764e348cebb89a5c90603, type: 3}
+  m_Name: GuitarCenter
+  m_EditorClassIdentifier: 
+  locationName: Guitar Center
+  description: Guitar Center's solemn facade looms over you, daring you to enter.
+  locationNorth: {fileID: 0}
+  locationSouth: {fileID: 11400000, guid: 1128ea304fe1f49eeb8bfe038e81a0e6, type: 2}
+  locationEast: {fileID: 0}
+  locationWest: {fileID: 11400000, guid: 3a2fe9fb32fe5478a9e51730fcd280e5, type: 2}

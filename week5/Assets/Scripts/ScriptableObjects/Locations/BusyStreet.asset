@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6be12adfb764e348cebb89a5c90603, type: 3}
+  m_Name: BusyStreet
+  m_EditorClassIdentifier: 
+  locationName: Main Street
+  description: It's a busy street, woah, watch out for the people. Too many people.
+  locationNorth: {fileID: 11400000, guid: e45e7dceb01144ef2a72929a249d8b69, type: 2}
+  locationSouth: {fileID: 11400000, guid: 602bd1a522d1c408986da0c8f249249e, type: 2}
+  locationEast: {fileID: 11400000, guid: b3c6b716ff94247d383fa78a20717d70, type: 2}
+  locationWest: {fileID: 11400000, guid: a860fe5c9e25f49a88627a375edbe0f5, type: 2}

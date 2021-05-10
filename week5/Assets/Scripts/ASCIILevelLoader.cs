@@ -16,6 +16,8 @@ public class ASCIILevelLoader : MonoBehaviour
     public GameObject goal;
     public GameObject breakable;
     public GameObject pup;
+    public GameObject enemy;
+    public GameObject dog;
 
     public string[] file_names;
 
@@ -124,6 +126,12 @@ public class ASCIILevelLoader : MonoBehaviour
                         case 'p':
                             newObj = Instantiate<GameObject>(pup);
                             break;
+                        case 'E':
+                            newObj = Instantiate<GameObject>(enemy);
+                            break;
+                        case 'D':
+                            newObj = Instantiate<GameObject>(dog);
+                            break;                        
                         default:
                             newObj = null;
                             break;
